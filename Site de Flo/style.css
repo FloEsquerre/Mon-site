@@ -1,0 +1,195 @@
+/*corp de page*/
+
+@font-face
+{
+	font-family: "Mona Shark"
+	src:url(polices/Mona_Shark.otf);
+	font-style: normal;
+	font-weight: normal;
+	font-size: large;
+}
+
+@font-face 
+{
+    font-family: 'funsizedregular';
+    src: url('polices/funsized-webfont.woff2') format('woff2'),
+         url('polices/funsized-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'action_manregular';
+    src: url('polices/action_man-webfont.woff2') format('woff2'),
+         url('polices/action_man-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	background-color: #EFEBEA;
+	font-family:'action_manregular',arial, sans-serif;
+	color:000000;
+}
+
+#bloc_page
+{
+	width: 900px
+	margin:auto;
+}
+
+#marge
+{
+	position: absolute;
+	left: 0px;
+	width: 150px;
+	height: 200%;
+	background-color:#FAA405;
+	border:3px #5E5E5E ridge;
+	border-radius: 10px;
+
+}
+
+#FB
+{
+	position:absolute;
+	left:10px;
+	top:20px;
+}
+#Insta
+{
+	position:absolute;
+	left:10px;
+	top:130px;
+}
+
+h2,h3
+{
+	font-family:'funsizedregular',arial, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/*header*/
+
+header
+{
+	margin-left: 150px;
+}
+
+#hautdepage
+{
+	font-family:funsizedregular, serif;
+	font-style: normal;
+	font-weight:normal;
+	font-size:20px;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+audio
+{
+	position:relative;
+	bottom: 39px;
+	left:5px;
+	width:190px;
+
+}
+
+header h1
+{
+	font-family:'funsizedregular', sans-serif;
+	text-transform: uppercase;
+	font-size: 80px;
+	font-weight: normal;
+	margin-left:80px;
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	margin-left: 200px;
+	margin-top: 3px;
+}
+
+nav li
+{
+	font-size: 30px;
+	margin-right: 80px;
+}
+
+nav a
+{
+	font-size: 30px;
+	color: #FAA405;
+}
+
+nav a:hover
+{
+	color:#055BFA;
+	text-decoration: none;
+}
+
+/*banniere*/
+
+#banniere
+{
+	display:inline-flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#banniere img
+{
+	margin-top: 20px;
+	margin-left: 150px;
+	width: 1200px;
+}
+
+/*contenu de page*/
+article
+{
+	font-family:action_manregular;
+	font-style: normal;
+	font-weight:normal;
+	font-size:20px;
+	display:flex;
+	flex-direction: row;
+	margin-left: 310px;
+}
+
+#article_presentation
+{
+	width: 400px;
+}
+
+#mission_webdev
+{
+	width: 400px;
+	margin-left:150px;
+}
+
+form
+{
+	margin-left:310px;
+}
+
+aside
+{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+	margin-left:250px;
+}
+
+aside a
+{
+	font-family:'funsizedregular',arial, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}

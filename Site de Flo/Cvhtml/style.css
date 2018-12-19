@@ -1,0 +1,148 @@
+/*corp de page*/
+head, body
+{
+	font-family:'action_manregular',arial, sans-serif;
+	color:#000000;
+}
+
+@font-face 
+{
+    font-family: 'funsizedregular';
+    src: url('polices/funsized-webfont.woff2') format('woff2'),
+         url('polices/funsized-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face 
+{
+    font-family: 'action_manregular';
+    src: url('polices/action_man-webfont.woff2') format('woff2'),
+         url('polices/action_man-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#blocpage
+{
+	display:inline-block;
+}
+
+#marge
+{
+	position: absolute;
+	left: 0px;
+	top:0px;
+	bottom: 0px;
+	width: 200px;
+	height: 100%;
+	background-color:#FAA405;
+	border-radius: 10px;
+}
+
+#FB
+{
+	position:absolute;
+	left:10px;
+	top:20px;
+}
+#Insta
+{
+	position:absolute;
+	left:10px;
+	top:130px;
+}
+#logo
+{
+	position:absolute;
+	left:0px;
+	top:200px;
+}
+h2
+{
+	color: #FAA405;
+}
+
+h2:hover
+{
+	color:#055BFA;
+	text-decoration: none;
+}
+
+h1
+{
+	font-family:funsizedregular, sans serif;
+	font-style: normal;
+	font-size: 30px;
+	text-align: center;
+}
+
+h3
+{
+	font-family:action_manregular;
+	font-style: normal;
+	text-align: center;
+	justify-content: center;
+}
+
+/*haut de page*/
+header
+{
+	display:inline-block;
+	position:relative;
+	top:50%;
+	left:40%;
+}
+
+#hautdepage
+{
+	display:inline-block;
+	vertical-align: top;
+	position:relative;
+	right:40%;
+}
+
+#photocv
+{
+	display:inline-block;
+	vertical-align:top;
+	position:relative;
+	left:100%;
+}
+
+/*contenu*/
+section
+{
+	display: inline-block;
+	position:relative;
+}
+
+#experience
+{
+	display:inline-block;
+	vertical-align: top;
+	position:relative;
+	left:20%;
+	width: 20%;
+}
+
+#competences
+{
+	display:inline-block;
+	vertical-align: top;
+	position:relative;
+	left:25%;
+	width:20%;
+}
+
+#maformation
+{
+	display:inline-block;
+	vertical-align: top;
+	position:relative;
+	left:30%;
+	width:20%;
+}
+
+
